@@ -9,7 +9,6 @@ libdpx_a_SOURCES = Codec.cpp \
                    OutStream.cpp \
                    Reader.cpp \
                    RunLengthEncoding.cpp \
-				   TestFunc.cpp \
                    Writer.cpp
 
 noinst_HEADERS = BaseTypeConverter.h \
@@ -18,7 +17,6 @@ noinst_HEADERS = BaseTypeConverter.h \
 				 EndianSwap.h \
 				 ReaderInternal.h \
 				 RunLengthEncoding.h \
-				 TestFunc.h \
 				 WriterInternal.h
 
 libdpxincludedir = $(includedir)
