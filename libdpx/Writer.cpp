@@ -34,6 +34,7 @@
 
 #include <cstring>
 #include <ctime>
+#include <vector>
 
 #if defined(__GNUC__)
 #    pragma GCC diagnostic ignored "-Wunused-parameter"
